@@ -1,0 +1,68 @@
+body{
+    height: 96vh;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    height: 58vh;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px black;
+}
+.login-info div span{
+    margin: 10px;
+    font-size: 20px;
+}
+.login-info h2{
+    font-size: 30px;
+    color: #ffff;
+}
+
+.name {
+    background-color: #ffff;
+    height: 30px;
+    width: 260px;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.login-info span{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.sub {
+    background: linear-gradient(to right,rgb(43, 43, 204),rgb(7, 164, 255));
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: #ffff;
+    margin-left: -40px;
+    font-weight: bolder;
+}
+.sub:hover{
+    cursor: pointer;
+    background: linear-gradient(to right,rgb(7, 164, 255),rgb(43, 43, 204));
+}
